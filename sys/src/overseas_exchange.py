@@ -19,8 +19,7 @@ trenv = ka.getTREnv()
 # [해외주식] 기본시세 > 해외주식 종목_지수_환율기간별시세(일_주_월_년)[v1_해외주식-012]
 ##############################################################################################
 
-df1, df2 = inquire_daily_chartprice(fid_cond_mrkt_div_code="N", fid_input_iscd=".DJI", fid_input_date_1="20250101",
-                                    fid_input_date_2="20250131", fid_period_div_code="D", env_dv="real")
+df1, df2 = inquire_daily_chartprice(fid_cond_mrkt_div_code="N", fid_input_iscd=".DJI", fid_input_date_1="20250101", fid_input_date_2="20250131", fid_period_div_code="D", env_dv="real")
 print(df1)
 print(df2)
 
